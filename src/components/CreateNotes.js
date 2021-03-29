@@ -29,7 +29,7 @@ const CreateNotes = () => {
       system: input.system,
     };
 
-    axios.post('http://localhost:3000/create', newNote);
+    axios.post('http://secret-ravine-89595.herokuapp.com/create', newNote);
   }
 
   return (
@@ -105,7 +105,7 @@ const CreateNotes = () => {
         <button
           type='submit'
           className='btn btn btn-info'
-          onclick={handleClick}
+          //  onclick={handleClick}
         >
           Send Data
         </button>
