@@ -20,7 +20,7 @@ const CreateNotes = () => {
   }
 
   function handleClick() {
-    alert('Submit Info');
+    // alert('Submit Info');
     console.log(input);
     const newNote = {
       name: input.name,
@@ -103,7 +103,7 @@ const CreateNotes = () => {
         </div>
 
         <button
-          type='submit'
+          // type='submit'
           className='btn btn btn-info'
           //  onclick={handleClick}
         >
