@@ -19,8 +19,9 @@ const CreateNotes = () => {
     });
   }
 
-  function handleClick() {
-    // alert('Submit Info');
+  function handleClick(event) {
+    event.preventDefault();
+    alert('Info submited check out Notes page');
     console.log(input);
     const newNote = {
       name: input.name,
@@ -44,6 +45,7 @@ const CreateNotes = () => {
             value={input.name}
             className='form-control'
             placeholder='Name'
+            autoComplete='off'
           ></textarea>
         </div>
 
@@ -57,6 +59,7 @@ const CreateNotes = () => {
             value={input.email}
             className='form-control'
             placeholder='email'
+            autoComplete='off'
           ></textarea>
         </div>
         <div className='form-group'>
