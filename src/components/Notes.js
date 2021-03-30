@@ -12,7 +12,7 @@ const Notes = () => {
   ]);
 
   useEffect(() => {
-    fetch('/notes')
+    fetch('https://secret-ravine-89595.herokuapp.com/notes')
       .then((res) => {
         if (res.ok) {
           return res.json();
