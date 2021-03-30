@@ -29,7 +29,7 @@ const CreateNotes = () => {
       system: input.system,
     };
 
-    axios.post('http://secret-ravine-89595.herokuapp.com/create', newNote);
+    axios.post('https://secret-ravine-89595.herokuapp.com/create', newNote);
   }
 
   return (
