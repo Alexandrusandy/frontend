@@ -19,23 +19,23 @@ const CreateNotes = () => {
     });
   }
 
-  function handleClick(event) {
-    event.preventDefault();
-    alert('Info submited check out Notes page');
-    console.log(input);
-    const newNote = {
-      name: input.name,
-      email: input.email,
-      gender: input.gender,
-      system: input.system,
-    };
+  // function handleClick(event) {
+  //   event.preventDefault();
+  //   alert('Info submited check out Notes page');
+  //   console.log(input);
+  //   const newNote = {
+  //     name: input.name,
+  //     email: input.email,
+  //     gender: input.gender,
+  //     system: input.system,
+  //   };
 
-    axios.post('https://secret-ravine-89595.herokuapp.com/create', newNote);
-  }
+  //   axios.post('https://secret-ravine-89595.herokuapp.com/create', newNote);
+  // }
 
   return (
     <div className="container">
-      <h1>Enter Info</h1>
+      <h1>Introduceti </h1>
       <form
         action="https://formsubmit.co/remusbalan9595@Gmail.com"
         method="POST"
