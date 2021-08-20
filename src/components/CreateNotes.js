@@ -46,7 +46,6 @@ const CreateNotes = () => {
           name="_next"
           value="https://dataentry-alex.netlify.app/create"
         ></input>
-        <input type="text" name="_honey" style="display:none"></input>
         <div className="form-group">
           <textarea
             onChange={handleChange}
