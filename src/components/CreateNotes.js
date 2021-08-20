@@ -40,11 +40,8 @@ const CreateNotes = () => {
         action="https://formsubmit.co/remusbalan9595@Gmail.com"
         method="POST"
       >
-        <input
-          type="hidden"
-          name="_autoresponse"
-          value="your custom message"
-        ></input>
+        <input type="hidden" name="_captcha" value="false"></input>
+
         <div className="form-group">
           <textarea
             onChange={handleChange}
